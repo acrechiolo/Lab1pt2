@@ -87,7 +87,11 @@ main {
 
 /* circles  */
 
-
+.container {
+    position: relative;
+    right: 1%;
+    bottom: 230px;
+}
 .large-circle {
     background-color: rgba(247, 136, 167, 0.6);
     border-radius: 50%;
