@@ -63,14 +63,17 @@ header {
     flex-direction: row;
     }
 
+h1 {
+    margin: 0;
+}
 ul {
-    display: flex;
+    display: flex;  
     align-items: center;
 }
+
 .button {
-    padding: 6px 10px;
+    padding: 5px 10px;
     font-size: 10px;
-    justify-content: center;
 }
 
 /* main content */
@@ -85,18 +88,18 @@ main {
 /* circles  */
 
 
-.large-child {
+.large-circle {
     background-color: rgba(247, 136, 167, 0.6);
-    border-radius: 600%;
+    border-radius: 50%;
     width: 200px;
     height: 200px;
     position: absolute;
     right: 65px;
     top: 150px;
   }
-  .medium-child {
+  .medium-circle {
     background-color: rgba(247, 193, 162, 0.7);
-    border-radius: 600%;
+    border-radius: 50%;
     width: 140px;
     height: 140px;
     opacity: 80%;
@@ -105,9 +108,9 @@ main {
     top: 260px;
     z-index: 2;
   }
-  .small-child {
+  .small-circle {
     background-color: rgba(207, 130, 213, 0.6);
-    border-radius: 600%;
+    border-radius: 50%;
     width: 100px;
     height: 100px;
     opacity: 70%;
